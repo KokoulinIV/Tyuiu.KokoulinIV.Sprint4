@@ -45,6 +45,7 @@ namespace Tyuiu.KokoulinIV.Sprint4.Task7.V5
                 }
             }
             Console.WriteLine("\nМассив:");
+            
             for (int i = 0; i < 3; ++i)
             {
                 for (int j = 0; j < 3; j++)
@@ -57,8 +58,10 @@ namespace Tyuiu.KokoulinIV.Sprint4.Task7.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            int z = ds.Calculate(arr);
+            string arra =  "246813579" ;
+            int a = 3;
+            int b = 3;
+            int z = ds.Calculate(a,b,arra);
             Console.WriteLine(z);
 
             Console.ReadKey();
